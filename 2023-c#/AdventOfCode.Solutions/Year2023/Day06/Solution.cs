@@ -113,6 +113,7 @@ class Solution : SolutionBase
     protected override string SolvePartTwo()
     {
         // TODO didn't finish this - plugged in to quadratic equation calculator
+        // answer - 30077773
         var lines = Input.SplitByNewline();
         long time = 0;
         long distance = 0;
@@ -130,7 +131,7 @@ class Solution : SolutionBase
             }
         }
 
-        result = parseGame(time, distance);
+        result = parseGamePt2(time, distance);
 
         return result.ToString();
     }
