@@ -11,7 +11,7 @@ class Solution : SolutionBase
 
         foreach (string input in inputs)
         {
-            git results += ParseHash(input);
+            results += ParseHash(input);
         }
 
         return results.ToString();
